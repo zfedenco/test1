@@ -1,0 +1,204 @@
+@import url(reset.css);
+body{
+  font: 11px/1.6  Helvetica,Arial, sans-serif;
+
+}
+article>section{
+  width: 205px;
+  height: 170px;
+  background: #efefef;
+  float: left;
+  margin: 0 10px 5px 0;
+}
+article>h2{
+font-size: 20px;
+}
+article{
+  margin-left: 30px;
+  width: 570px;
+  padding: 30px 0 18px 0;
+  border-bottom: 1px solid #c0c0c0;
+}
+article>section p{
+  color: #090909;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+article>p a{
+  color: #244ae6;
+}
+article>p a:hover{
+  color: #f7aca7;
+}
+nav{
+  width: 200px;
+  margin: 30px 0 0 20px;
+  color: #404040;
+  padding-bottom: 22px;
+  border-bottom: 1px solid #c0c0c0;
+}
+nav>a{
+  color: #404040;
+  line-height: 2.0;
+  padding-left: 30px;
+  height: 50px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.a1{
+    background: url(/home/zoya/Test1/Images-test/a1.png) no-repeat  ;
+}
+.a2{
+   background: url(/home/zoya/Test1/Images-test/a2.png) no-repeat  ;
+}
+.a3{
+   background: url(/home/zoya/Test1/Images-test/a3.png) no-repeat  ;
+}
+.a4{
+   background: url(/home/zoya/Test1/Images-test/a4.png) no-repeat  ;
+}
+.a5{
+   background: url(/home/zoya/Test1/Images-test/a5.png) no-repeat  ;
+}
+.a6{
+   background: url(/home/zoya/Test1/Images-test/a6.png) no-repeat  ;
+}
+.a7{
+   background: url(/home/zoya/Test1/Images-test/a7.png) no-repeat  ;
+}
+.a8{
+   background: url(/home/zoya/Test1/Images-test/a8.png) no-repeat  ;
+}
+.a9{
+   background: url(/home/zoya/Test1/Images-test/a9.png) no-repeat  ;
+}
+.a10{
+   background: url(/home/zoya/Test1/Images-test/a10.png) no-repeat  ;
+}
+nav:hover>a {
+  opacity: 0.5;
+}
+nav:hover>a:hover {
+  opacity: 1.0;
+}
+nav>h3{
+  color:#404040;
+}
+ .figure1,.figure2,.figure3,.figure4 {
+   width: 200px;
+   height: 260px;
+   float: left;
+   margin: 15px;
+ }
+.figure-top{
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.figure-botom{
+  width: 70%;
+  overflow: hidden;
+  margin: 0 auto;
+  padding-bottom: 12px;
+}
+h3{
+  color: #979797;
+}
+.input{
+  font:12px/1.6  Helvetica,Arial, sans-serif;
+  width: 220px;
+  margin: 8px 0 8px 0;
+}
+.input:focus{
+  border: 2px solid #6ac6f0;
+}
+form{
+  font:14px/1.6  Helvetica,Arial, sans-serif;
+  font-weight: bold;
+  color: #646464;
+  margin-left: 30px;
+}
+.textarea{
+  font:12px/1.6  Helvetica,Arial, sans-serif;
+  color: #41403c;
+  width: 280px;
+  padding: 3px;
+  margin:8px 0 20px 0;
+}
+.textarea:focus{
+  border: 2px solid #6ac6f0;
+}
+button{
+  width: 145px;
+  height: 35px;
+  margin: 30px;
+  border-radius: 6px;
+  border: 2px solid #6ac6f0;
+  background: -moz-linear-gradient(top,#fff, #C0C0C0);
+  cursor: pointer;
+
+}
+button:active{
+  background: -moz-linear-gradient(top,#C0C0C0, #fff);
+}
+.radio{
+  overflow: hidden;
+}
+
+input[type="radio"] {
+	display: none;
+}
+
+label.for-radio span {
+	background: url(/home/zoya/Test1/Images-test/rad1.png) no-repeat;
+	padding-left: 20px;		/* Ширина картинки + пара пикселей отступа от нее до текста */
+	line-height: 24px;
+	height: 18px;
+	display: block;
+  float: left;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+label.for-radio input[type="radio"]:checked + span {
+background: url(/home/zoya/Test1/Images-test/rad2.png) no-repeat;
+}
+.for-radio:hover{
+  opacity: 0.5;
+}
+.box{
+  overflow: hidden;
+  border-bottom: 1px solid #c0c0c0;
+  border-top: 1px solid #c0c0c0;
+}
+.container-2{
+width: 300px;
+vertical-align: middle;
+white-space: nowrap;
+position: relative;
+}
+.container-2 input.search{
+width: 35px;
+height: 40px;
+float: left;
+padding-left: 35px;
+border:2px solid #6ac6f0;
+background: url(/home/zoya/Test1/Images-test/poisk.png) no-repeat;
+transition: width 2s ease;
+margin: 40px 0 40px 0;
+cursor: pointer;
+}
+.container-2 input.icon{
+position: absolute;
+top: 0%;
+margin: -40px 0 -40px 0;
+margin-left: 0px;
+margin-top: 0px;
+z-index: 1;
+}
+.container-2 input.search:focus {
+width: 300px;
+}
+.container-2 input.search:hover {
+width: 300px;
+}
