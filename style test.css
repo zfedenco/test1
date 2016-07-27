@@ -149,7 +149,7 @@ input[type="radio"] {
 }
 
 label.for-radio span {
-	background: url(/home/zoya/Test1/Images-test/rad1.png) no-repeat;
+	background: url(Images-test/rad1.png) no-repeat;
 	padding-left: 20px;		/* Ширина картинки + пара пикселей отступа от нее до текста */
 	line-height: 24px;
 	height: 18px;
