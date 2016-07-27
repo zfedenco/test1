@@ -160,7 +160,7 @@ label.for-radio span {
 }
 
 label.for-radio input[type="radio"]:checked + span {
-background: url(/home/zoya/Test1/Images-test/rad2.png) no-repeat;
+background: url(Images-test/rad2.png) no-repeat;
 }
 .for-radio:hover{
   opacity: 0.5;
@@ -182,7 +182,7 @@ height: 40px;
 float: left;
 padding-left: 35px;
 border:2px solid #6ac6f0;
-background: url(/home/zoya/Test1/Images-test/poisk.png) no-repeat;
+background: url(Images-test/poisk.png) no-repeat;
 transition: width 2s ease;
 margin: 40px 0 40px 0;
 cursor: pointer;
